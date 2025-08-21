@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE configs
+.vs/
+*.swp
+*.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment & secrets
+appsettings.*.json
+!appsettings.Development.json  # Keep development settings if you want
+secrets.json
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Other
+*.tmp
+*.bak
